@@ -4,7 +4,6 @@ agent any
     stage('Source') { 
       steps {
         echo 'Reading from Git'    
-        fileExists 'https://github.com/lokesh125656/sample.git/Jenkinsfile'
 
       }
     }
